@@ -1,0 +1,348 @@
+#topbar {
+  height: 40px;
+  background-color: #545454;
+}
+
+#topbar h1 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+#topbar .container .contacts ul {
+  padding-left: 0;
+}
+
+#topbar .container .contacts ul li {
+  list-style: none;
+  margin: 0px;
+}
+
+#topbar .container .contacts ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+#topbar .container .icons ul li {
+  list-style: none;
+  margin: 5px;
+}
+
+#topbar .container .icons ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+#navbar {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+#navbar .container .navbar-box {
+  height: 50px;
+}
+
+#navbar .container .logo .red {
+  width: 5px;
+  height: 18px;
+  background-color: #e96b56;
+}
+
+#navbar .container .logo .logos h1 {
+  font-size: 20px;
+}
+
+#navbar .container .services {
+  height: 40px;
+}
+
+#navbar .container .services ul {
+  padding-left: 0%;
+}
+
+#navbar .container .services ul li {
+  margin: 5px;
+  list-style: none;
+  font-size: 13px;
+}
+
+#navbar .container .services ul li a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#navbar .container .services ul li a:hover {
+  color: #e96b56;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#home {
+  height: 100px;
+  background-color: whitesmoke;
+}
+
+#home .container .locaction {
+  height: 30px;
+  margin-top: 16px;
+}
+
+#home .container .locaction p:first-child {
+  font-size: 12px;
+}
+
+#home .container .locaction p:last-child {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+main #carouselExampleCaptions img {
+  height: 70vh;
+}
+
+main #carouselExampleCaptions .text {
+  margin-bottom: 100px;
+}
+
+main #carouselExampleCaptions .text button {
+  background-color: #e96b56;
+  border: none;
+  border-radius: 15px;
+  width: 15%;
+}
+
+main #carouselExampleCaptions .text span {
+  color: #e96b56;
+}
+
+main #carouselExampleCaptions .text p {
+  margin: 40px;
+  font-size: 18px;
+  color: #2e2e2e;
+}
+
+main #carouselExampleCaptions h1 {
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+
+#first-card .container .row .box {
+  height: 230px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 10px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#first-card .container .row .box:hover {
+  background-color: #e96b56;
+}
+
+#first-card .container .row .box:hover .icon {
+  color: white;
+}
+
+#first-card .container .row .box:hover .title {
+  color: white;
+}
+
+#first-card .container .row .box:hover .subtitle {
+  color: white;
+}
+
+#first-card .container .row .box .icon {
+  margin-left: 20px;
+  font-size: 40px;
+  color: #e96b56;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#first-card .container .row .box .title {
+  color: #545454;
+  margin-top: 4px;
+  margin-left: 20px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#first-card .container .row .box .subtitle {
+  margin-top: 15px;
+  margin-left: 20px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#for-image .container .row img {
+  width: 100%;
+}
+
+#for-image .container .row h3 {
+  color: #545454;
+}
+
+#for-image .container .row .texts .icon i {
+  font-size: 20px;
+  color: #d58577;
+}
+
+#last-card .container .row .box {
+  border: solid 1px #e6e3e3;
+  height: 270px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#last-card .container .row .box:hover {
+  background-color: #E96B56;
+}
+
+#last-card .container .row .box:hover .basket .icon {
+  background-color: white;
+}
+
+#last-card .container .row .box:hover .basket .icon i {
+  color: #E96B56;
+}
+
+#last-card .container .row .box:hover .basket .title h3 {
+  color: white;
+}
+
+#last-card .container .row .box:hover .basket .subtitle p {
+  color: white;
+}
+
+#last-card .container .row .box .basket {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#last-card .container .row .box .basket .icon {
+  -webkit-box-shadow: #e7c6c1 -5px 5px;
+          box-shadow: #e7c6c1 -5px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #E96B56;
+  border-radius: 8px;
+}
+
+#last-card .container .row .box .basket .icon i {
+  font-size: 25px;
+  color: white;
+  -webkit-box-shadow: 0 0 black;
+          box-shadow: 0 0 black;
+}
+
+#last-card .container .row .box .basket .subtitle p {
+  text-align: center;
+}
+
+#skills .container .row .our {
+  text-align: center;
+}
+
+#skills .container .row .our hr {
+  width: 55px;
+  height: 4px;
+  color: #d22000;
+}
+
+#plagin .container .row img {
+  width: 100px;
+}
+
+footer {
+  background-color: #3b3b3b;
+}
+
+footer .container .useful {
+  margin: 0px auto;
+}
+
+footer .container .useful ul {
+  padding-left: 0;
+}
+
+footer .container .useful ul li {
+  list-style: none;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+footer .container .useful ul li .fa-chevron-right {
+  font-size: 10px;
+  color: #e96b56;
+}
+
+footer .container .useful ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .container .useful ul li span {
+  margin: 3px;
+}
+
+footer .container .socalmedia i {
+  width: 30px;
+  height: 30px;
+  background-color: #545454;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+footer .container .socalmedia i:hover {
+  background-color: #e96b56;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+footer .endl {
+  width: 100%;
+  height: 100px;
+  background-color: #404040;
+}
+
+footer .endl span {
+  font-size: 12px;
+  line-height: 4;
+}
+
+@media only screen and (max-width: 1200px) {
+  #for-image img {
+    height: 500px;
+  }
+}
+/*# sourceMappingURL=home.css.map */

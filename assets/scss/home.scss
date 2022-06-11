@@ -1,0 +1,404 @@
+#topbar {
+
+    height: 40px;
+    background-color: #545454;
+
+    h1 {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: bolder;
+    }
+
+    .container {
+
+
+        .contacts ul {
+            padding-left: 0;
+        }
+
+        .contacts ul li {
+            list-style: none;
+            margin: 0px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 12px;
+            }
+        }
+
+        .icons ul li {
+            list-style: none;
+            margin: 5px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+#navbar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+
+    .container {
+
+
+        .navbar-box {
+            height: 50px;
+        }
+
+        .logo {
+
+            .red {
+                width: 5px;
+                height: 18px;
+                background-color: #e96b56;
+                ;
+            }
+
+            .logos h1 {
+                font-size: 20px;
+            }
+        }
+
+        .services {
+            height: 40px;
+        }
+
+        .services ul {
+            padding-left: 0%;
+
+            li {
+                margin: 5px;
+                list-style: none;
+                font-size: 13px;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    transition: 1s;
+
+                    &:hover {
+                        color: #e96b56;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#home {
+
+    height: 100px;
+    background-color: whitesmoke;
+
+    .container {
+
+
+        .locaction {
+            height: 30px;
+            margin-top: 16px;
+
+            p:first-child {
+                font-size: 12px;
+            }
+
+            p:last-child {
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+main {
+    #carouselExampleCaptions {
+        img {
+            height: 70vh;
+        }
+
+
+        .text {
+            margin-bottom: 100px;
+
+
+            button {
+
+                background-color: #e96b56;
+                border: none;
+                border-radius: 15px;
+                width: 15%;
+            }
+
+            span {
+                color: #e96b56;
+            }
+
+            p {
+                margin: 40px;
+                font-size: 18px;
+                color: #2e2e2e;
+            }
+        }
+
+        h1 {
+            font-size: 60px;
+            color: black;
+            text-align: center;
+        }
+    }
+}
+
+#first-card {
+    .container {
+        .row {
+            .box {
+
+                height: 230px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+                border-radius: 10px;
+                transition: .2s;
+
+                &:hover {
+                    background-color: #e96b56;
+
+                    .icon {
+                        color: white;
+                    }
+
+                    .title {
+                        color: white;
+                    }
+
+                    .subtitle {
+                        color: white;
+                    }
+                }
+
+                .icon {
+                    margin-left: 20px;
+                    font-size: 40px;
+                    color: #e96b56;
+                    transition: .2s;
+                }
+
+                .title {
+                    color: #545454;
+                    margin-top: 4px;
+                    margin-left: 20px;
+                    transition: .2s;
+                }
+
+                .subtitle {
+                    margin-top: 15px;
+                    margin-left: 20px;
+                    transition: .2s;
+                }
+            }
+        }
+    }
+}
+
+#for-image {
+    .container {
+        .row {
+            img{
+                width: 100%;
+            }
+            h3{
+                color: #545454;
+                
+            }
+
+            .texts{
+               .icon{
+                i{
+                    font-size: 20px;
+                    color: #d58577;
+                }
+               }
+            }
+        }
+    }
+
+}
+
+#last-card{
+    .container{
+        .row{
+            .box{
+                border: solid 1px rgb(230, 227, 227);
+                height: 270px;
+                transition: .3s;
+                &:hover{
+                    background-color: #E96B56;
+
+                    .basket{
+                        .icon{
+                            
+                                background-color: white;
+                            i{
+                                color:#E96B56 ;
+                            }
+                        }
+
+                        .title{
+                           h3{
+                            color: white;
+                           }
+                        }
+
+                        .subtitle{
+                            p{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+
+                .basket{
+                    margin-top: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                    .icon{
+                        box-shadow: #e7c6c1 -5px 5px;
+                        display: flex;
+                    align-items: center;
+                    justify-content: center;
+                        width: 70px;
+                        height: 70px;
+                        background-color:#E96B56 ;
+                        border-radius: 8px;
+                        i{
+                          font-size: 25px;
+                          color: white; 
+                          box-shadow: 0 0 black;
+                          
+                        }
+                    }
+
+                    .subtitle{
+                        p{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#skills{
+    .container{
+        .row{
+            .our{
+                text-align: center;
+               
+                   hr{
+                    width: 55px;
+                    height: 4px;
+                    color: #d22000 ;
+                   }
+                
+            }
+
+            
+        }
+    }
+}
+
+#plagin{
+    .container{
+        .row{
+            img{
+                width: 100px;
+                
+            }
+        }
+    }
+}
+
+footer {
+    background-color: rgb(59, 59, 59);
+
+    .container {
+
+        .useful {
+            margin: 0px auto;
+
+            ul {
+                padding-left: 0;
+
+                li {
+                    list-style: none;
+                    font-size: 12px;
+                    margin-top: 10px;
+
+                    .fa-chevron-right {
+                        font-size: 10px;
+                        color: #e96b56;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+
+                    span {
+                        margin: 3px;
+                    }
+                }
+            }
+        }
+
+        .socalmedia {
+
+            i {
+                width: 30px;
+                height: 30px;
+                background-color: rgb(84, 84, 84);
+                border-radius: 50%;
+                padding: 10px;
+                font-size: 10px;
+                transition: .5s;
+
+                &:hover {
+                    background-color: #e96b56;
+                    transition: .5s;
+                }
+            }
+        }
+    }
+
+    .endl {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(64, 64, 64);
+
+        span {
+            font-size: 12px;
+            line-height: 4;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+   #for-image{
+    img{
+        height: 500px;
+    }
+   }
+}
